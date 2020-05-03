@@ -1,0 +1,90 @@
+CRITICAL - 2020-05-02 21:36:44 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/var/www/html/c...', 84, Array)
+#1 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(84): mkdir('public/', 511, true)
+#2 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(28): App\Controllers\Uploads_controller->__checkCreateDir('public/assets/u...')
+#3 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->store()
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-02 21:39:01 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/var/www/html/c...', 212, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(212): mkdir('/assets/uploads...', 511, true)
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('/assets/uploads...')
+#3 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('/assets/uploads...')
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->store()
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#6 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 21:40:55 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/var/www/html/c...', 212, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(212): mkdir('/public//assets...', 511, true)
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('/public//assets...')
+#3 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('/public//assets...')
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->store()
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#6 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 21:41:37 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/var/www/html/c...', 212, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(212): mkdir('/publicassets/u...', 511, true)
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('/publicassets/u...')
+#3 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('/publicassets/u...')
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->store()
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#6 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 21:42:39 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/var/www/html/c...', 212, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(212): mkdir('/public/assets/...', 511, true)
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('/public/assets/...')
+#3 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('/public/assets/...')
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->store()
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#6 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-02 21:50:51 --> Array to string conversion
+#0 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/var/www/html/c...', 27, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#3 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-02 21:54:47 --> Call to undefined function App\Controllers\str_pos()
+#0 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 21:56:11 --> Call to undefined function App\Controllers\sub_str()
+#0 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 21:56:20 --> Call to undefined function App\Controllers\sub_str()
+#0 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 21:57:12 --> Call to undefined function App\Controllers\sub_str()
+#0 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-02 22:05:02 --> Undefined variable: image
+#0 /var/www/html/codeigniter4/app/Views/form_upload.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/c...', 41, Array)
+#1 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/c...')
+#2 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/Common.php(1087): CodeIgniter\View\View->render('form_upload', Array, true)
+#3 /var/www/html/codeigniter4/app/Controllers/Uploads_controller.php(35): view('form_upload', Array)
+#4 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(914): App\Controllers\Uploads_controller->index()
+#5 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Uploads_controller))
+#6 /var/www/html/codeigniter4/vendor/codeigniter4/framework/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/codeigniter4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
